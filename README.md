@@ -3,9 +3,9 @@ This is an basic application which uses flask and boto3 to list details about EC
 
 Use these basic docker commands to deploy and check in your local
 
-sudo docker build -t <image-name>:<tag> .
+sudo docker build -t image-name:tag .
   
-sudo docker run -it -p 8000:8000 <image-name>:<tag>
+sudo docker run -it -p 8000:8000 image-name:tag
 
 It should load the application at port 8000 in your local
 
